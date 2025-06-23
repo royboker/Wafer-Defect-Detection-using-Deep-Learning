@@ -91,13 +91,3 @@ Date: May 2025
 
 1. Train the model via `train_model.ipynb`
 2. Run predictions using the trained model on `df_wafers_test.csv`
-3. Save final CSV in required submission format
-
----
-
-## ✅ Submission Format Reminder
-
-The output CSV must:
-
-* Include **all original columns** from the test set
-* Contain a single new column: `IsScratchDie` (0 or 1)
