@@ -12,8 +12,7 @@ The goal is to classify each die in a wafer map as either **scratch-defective (1
 
 ```bash
 .
-├── train_model.ipynb         # Main Jupyter Notebook for training
-├── predict_and_export.py     # Script to predict on test data and export CSV
+├── scratch_detection_roy_boker.ipynb         # Main Jupyter Notebook for training
 ├── data/
 │   ├── df_wafers.csv         # Input wafer data
 │   └── df_wafers_test.csv    # Unlabeled test data
